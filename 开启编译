@@ -1,6 +1,6 @@
 ①：修改此文件就会开启编译固件，随便修改，加个点，减个字，随便您改，改完保存就启动编译了，顺便也在这里随便写点说明，呵呵！
 
-②：选择要编译的固件在.github/workflows里面的build-openwrt.yml文件里面找到下面代码
+②：选择要编译的固件在.github/workflows里面的build-openwrt.yml文件里面找到下面代码.
     name: 编译 ${{matrix.target}}
     strategy:
       fail-fast: false
